@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+.content_3__down{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+}
+
+.content_3__top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.content_3__top > span{
+    line-height: 2;
+    text-transform: uppercase;
+    color: #f4f4f5;
+}
+
+.content_3__top > h6{
+    color: #ffffff;
+    line-height: 1.75;
+    font-size: 2rem;
+}
+
+.work__table__top{
+    padding: 25px;
+    background: rgba(234, 230, 230, 0.2);
+    border-radius: 10px;
+    /*margin-top: 30px;*/
+    display: flex;
+    flex-direction: row;
+    column-gap: 120px;
+    /*justify-content: space-around;*/
+    /*align-items: center;*/
+}
+
+.work__table__top > h4{
+
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    align-items: center;
+}
+
+.work__table__group> h3{
+    color: #F8BB10;
+}
+
+.work__table__group > p{
+    width: 306px;
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 24px;
+    color: #bcc8d2;
+}
+
+
+@media all and (max-width: 425px) {
+    .work__table__top{
+        flex-wrap: wrap
+    }
+
+    .content_3__top > h6{
+        display: none;
+    }
+}
+/* ! ========== CONTENT-3 FINISH =========*/
